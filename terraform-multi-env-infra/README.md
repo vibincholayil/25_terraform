@@ -43,6 +43,7 @@ terraform workspace new prod
 terraform plan -var-file="prod.tfvars"
 terraform apply -var-file="prod.tfvars"
 ```
+![alt text](1.png)
 
 5. **Cleanup: Destroying Resources**
 After validating the infrastructure creation, resources were destroyed per environment:  
